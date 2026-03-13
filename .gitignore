@@ -1,0 +1,54 @@
+### IntelliJ IDEA ###
+.idea/
+*.iml
+out/
+
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+
+### Build Systems ###
+target/
+build/
+
+### Database / Local State ###
+data/*.csv
+data/test_users*
+
+### Security ###
+data/*.p12
+
+### Config ###
+config.properties
+
+### Logs ###
+*.log
+
+### Internal documentation ###
+architecture.md
+implementation_plan.md
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### Mac OS ###
+.DS_Store
